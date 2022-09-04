@@ -20,6 +20,13 @@ namespace SRP
         {
             this.books.Remove(book);
         }
+
+        //Método para imprimir todos los libros de una estanteria
+        public void ListBooks(){
+            foreach (Book b in this.books){
+                Console.WriteLine(b.Title);
+            }
+        }
     }
 
 }

@@ -20,5 +20,11 @@ namespace SRP
             this.Author = author;
             this.Code = code;
         }
+
+        //Se hace un override del método ToString para poder imprimir de manera que se tenga toda la información necesaria de un libro
+        public override string ToString()
+        {
+            return this.Title+" de "+this.Author+". Código: "+this.Code;
+        }
     }
 }

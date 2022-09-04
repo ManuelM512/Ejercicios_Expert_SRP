@@ -19,6 +19,13 @@ namespace SRP
         {
             this.shelves.Remove(shelve);
         }
+
+        //Método para imprimir todas las estanterias de un sector
+        public void ListShelves(){
+            foreach (Shelve s in this.shelves){
+                Console.WriteLine(s.CodigoEstanteria);
+            }
+        }
     }
 
 }
