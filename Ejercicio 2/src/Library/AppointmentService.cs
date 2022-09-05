@@ -12,7 +12,7 @@ namespace Library
         //Las validaciones deberían ser realizadas en la clase de instancia
         static Boolean isValid{get; set;}
         static int id=0;
-        public static string CreateAppointment(DateTime date, string appointmentPlace, Pacient pacient, Doctor doctor)
+        public static string CreateAppointment(DateTime date, string appointmentPlace, Patient pacient, Doctor doctor)
         {
             id+=1;
 
